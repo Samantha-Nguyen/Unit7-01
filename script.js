@@ -25,7 +25,7 @@ function randomizer () {
 }
 
 function playagain () {
-  randomNumber =Math.floor(Math.random() * 6) + 1
+  randomNumber = Math.floor(Math.random() * 6) + 1
   document.getElementById('answer').innerHTML = ''
   document.getElementById('input').value = ''
 }
