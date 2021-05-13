@@ -3,9 +3,6 @@ document.getElementById('button').addEventListener('click', randomizer)
 
 document.getElementById('play-again').addEventListener('click', playagain)
 
-let randomNumber = 0
-let userGuess = 0
-
   // generates a random number between 1 to 6
   randomNumber = Math.floor(Math.random() * 6) + 1
 
