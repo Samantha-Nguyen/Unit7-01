@@ -7,14 +7,14 @@ let randomNumber = 0
 let userGuess = 0
 
 // generates a random number between 1 to 6
-  randomNumber = Math.floor(Math.random() * 6) + 1
+randomNumber = Math.floor(Math.random() * 6) + 1
 
 function randomizer () {
 // gets the number typed in by the user and convert into an integer
   userGuess = document.getElementById('input').value
   userGuess = parseInt(userGuess)
 
-// compares userGuess and randomNumber
+  // compares userGuess and randomNumber
   if (userGuess === randomNumber) {
     document.getElementById('answer').innerHTML = 'Congrats, you guessed correctly!'
   } else if (userGuess >= randomNumber) {
@@ -25,7 +25,7 @@ function randomizer () {
 }
 
 function playagain () {
-  randomNumber =  Math.floor(Math.random() * 6) + 1
+  randomNumber =Math.floor(Math.random() * 6) + 1
   document.getElementById('answer').innerHTML = ''
   document.getElementById('input').value = ''
 }
