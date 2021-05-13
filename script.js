@@ -25,8 +25,7 @@ function randomizer () {
     document.getElementById('answer').innerHTML = 'Please enter a numerical value.'
   } if (userGuess <= 0) {
     document.getElementById('answer').innerHTML = 'Please enter a positive number.'
-  }
-    if (userGuess >= 7) {
+  } if (userGuess >= 7) {
     document.getElementById('answer').innerHTML = 'Please enter a number between 1 and 6.'
   }
 }
